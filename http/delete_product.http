@@ -1,0 +1,3 @@
+DELETE http://localhost:5000/product/64a99572b982b419bbe09968 HTTP/1.1
+
+# DELETE http://localhost:5000/product/id HTTP/1.1

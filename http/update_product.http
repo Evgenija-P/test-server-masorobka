@@ -1,0 +1,17 @@
+PUT http://localhost:5000/product/64a9686b3c3ca99001da9d26 HTTP/1.1
+Content-Type: application/json
+
+{
+  "category": "new_category",
+  "discount_price": 123456,
+  "name": "new",
+  "price": 99,
+  "unit": "pieces",
+  "available": true,
+  "description": "new_description",
+  "favourite": false,
+  "img": "new_url"
+}
+
+# PUT http://localhost:5000/product/id HTTP/1.1
+

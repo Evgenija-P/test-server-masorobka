@@ -1,0 +1,25 @@
+PUT http://localhost:5000/order/64a981c81038556c2195f9e9 HTTP/1.1
+Content-Type: application/json
+
+{
+    "order_date": "2023-07-08",
+    "customer_name": " Customer",
+    "phone_number": "+987654321",
+    "delivery_address": "456  City",
+    "total_amount": 129.99,
+    "products": [
+        {
+            "product": "60e7018b4829d74a2c4d609c",
+            "quantity": 3
+        },
+        {
+            "product": "64a6e97dab987804bd4cd38a",
+            "quantity": 30
+        },
+        {
+            
+             "product": "64a9686b3c3ca99001da9d26",
+            "quantity": 30
+        }
+    ]
+}

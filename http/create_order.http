@@ -1,0 +1,19 @@
+POST http://localhost:5000/order HTTP/1.1
+Content-Type: application/json
+
+{
+    "customer_name": "J ",
+    "phone_number": "+123456789",
+    "delivery_address": " Main ",
+    "total_amount": 99.99,
+    "products": [
+        { 
+            "product": "64aa8a7a4bd990790be6db98",
+            "quantity": 20
+        },
+        {
+            "product": "64aa8a334bd990790be6db94",
+            "quantity": 14
+        }
+    ]
+}
